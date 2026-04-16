@@ -13,13 +13,9 @@ Ekstraksi data dari KTP (Kartu Tanda Penduduk) menggunakan PaddleOCR dengan vali
 ## Install
 
 ```bash
-# Tested on Python 3.9.25 (requires Python 3.9+)
+# Tested on Python 3.9.25 (requires Python 3.9)
 pip install paddlepaddle==3.2.0 paddleocr
 ```
-
-> **Note:**
-> - Gunakan `paddlepaddle==3.2.0`. Versi 3.3.1 memiliki bug oneDNN di Windows.
-> - PaddlePaddle **tidak mendukung Python 3.13+** secara resmi. Pre-built packages hanya tersedia hingga **Python 3.12**. Untuk versi Python lebih tinggi, silakan compile dari source.
 
 ## Usage
 
