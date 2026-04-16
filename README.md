@@ -13,7 +13,7 @@ Ekstraksi data dari KTP (Kartu Tanda Penduduk) menggunakan PaddleOCR dengan vali
 ## Install
 
 ```bash
-# Requires Python 3.9+
+# Tested on Python 3.9.25 (requires Python 3.9+)
 pip install paddlepaddle==3.2.0 paddleocr
 ```
 
