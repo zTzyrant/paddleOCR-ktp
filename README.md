@@ -2,6 +2,27 @@
 
 Ekstraksi data dari KTP (Kartu Tanda Penduduk) menggunakan PaddleOCR dengan validasi NIK berbasis regex.
 
+## 📊 Accuracy Report
+
+| Metric | Value |
+|--------|-------|
+| **Total Images** | 325 |
+| **Average Score** | 81.5% |
+| **Processing Time** | 727 seconds |
+| **Success Rate** | 95.1% |
+
+### Score Distribution
+
+| Score | Count | Percentage | Description |
+|-------|-------|------------|-------------|
+| 100   | 221   | 68.0%      | NIK & Tanggal Lahir cocok |
+| 50    | 88    | 27.1%      | NIK valid, Tanggal tidak cocok |
+| 0     | 16    | 4.9%       | NIK invalid atau OCR gagal |
+
+**Kesimpulan:** 309 dari 325 gambar berhasil diproses (95.1%)
+
+---
+
 ## Fitur
 
 - **OCR PaddleOCR v5** - Deteksi dan pengenalan teks KTP otomatis
