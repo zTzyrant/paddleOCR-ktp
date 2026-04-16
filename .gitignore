@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PaddlePaddle models (auto-download, large files)
+.paddlex/
+
+# Dataset images (too large for git)
+train/
+test/
+valid/
+
+# OCR results & reports
+ocr_accuracy_report.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
